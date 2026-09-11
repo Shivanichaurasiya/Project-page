@@ -17,7 +17,7 @@ const AddTask = () => {
     <>
     <section className='rounded-2xl bg-white ml-10 mr-10'>
         <div className='mb-3 ml-10 flex items-center gap-3'>
-            <div className=' flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600'>
+            <div className=' flex mt-2 h-8 w-8 items-center justify-center rounded-full bg-indigo-600'>
                 <Plus sixe={19}
                 className="text-white"/>
             </div>
@@ -31,8 +31,8 @@ const AddTask = () => {
         className="flex flex-col gap-3 sm:flex-row">
             <div className='relative flex-1'>
                 <Pencil 
-                size={22}
-                className='absolute left-4 top-1/2 translate-y-1/2 text-slate-400 '/>
+                size={23}
+                className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"/>
 
                 <input
             type="text"
